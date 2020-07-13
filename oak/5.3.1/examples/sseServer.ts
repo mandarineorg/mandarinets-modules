@@ -4,20 +4,20 @@
 
 // Importing some console colors
 import {
-  green,
-  cyan,
-  bold,
-  yellow,
-} from "https://deno.land/std@0.58.0/fmt/colors.ts";
+    bold, cyan, green,
 
+
+    yellow
+} from "https://deno.land/std@0.61.0/fmt/colors.ts";
 import {
-  Application,
-  Context,
-  isHttpError,
-  Router,
-  ServerSentEvent,
-  Status,
+    Application,
+    Context,
+    isHttpError,
+    Router,
+    ServerSentEvent,
+    Status
 } from "../mod.ts";
+
 
 interface Book {
   id: string;

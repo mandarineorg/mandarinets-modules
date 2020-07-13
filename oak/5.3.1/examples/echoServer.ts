@@ -1,11 +1,11 @@
 import {
-  green,
-  cyan,
-  bold,
-  yellow,
-} from "https://deno.land/std@0.58.0/fmt/colors.ts";
+    bold, cyan, green,
 
+
+    yellow
+} from "https://deno.land/std@0.61.0/fmt/colors.ts";
 import { Application } from "../mod.ts";
+
 
 const app = new Application();
 

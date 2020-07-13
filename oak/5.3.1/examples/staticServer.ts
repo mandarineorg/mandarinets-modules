@@ -1,12 +1,12 @@
 import {
-  green,
-  cyan,
-  bold,
-  yellow,
-  red,
-} from "https://deno.land/std@0.58.0/fmt/colors.ts";
+    bold, cyan, green,
 
-import { Application, HttpError, send, Status } from "../mod.ts";
+
+
+    red, yellow
+} from "https://deno.land/std@0.61.0/fmt/colors.ts";
+import { Application, HttpError, Status } from "../mod.ts";
+
 
 const app = new Application();
 
